@@ -1,0 +1,9 @@
+namespace Test;
+
+table Person {
+    name:string;
+    surname:string;
+    age:short = 18;
+}
+
+root_type Person;
